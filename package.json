@@ -1,0 +1,34 @@
+{
+  "name": "tutorial-protractor-basic",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://applitools.com",
+  "author": {
+    "name": "Applitools Team",
+    "email": "team@applitools.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/applitools/tutorial-protractor-basic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/applitools/tutorial-protractor-basic/issues"
+  },
+  "dependencies": {
+    "@applitools/eyes-protractor": "1.19.0",
+    "mocha": "^6.2.3",
+    "pdf2pic": "^2.1.4",
+    "protractor": "^7.0.0"
+  },
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "devDependencies": {
+    "@applitools/eyes-images": "^4.21.0",
+    "pdfbox-simple": "^1.2.15"
+  }
+}
