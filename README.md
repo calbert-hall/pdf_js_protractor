@@ -1,4 +1,4 @@
-# Applitools Tutorial - Protractor
+# Applitools PDF Testing - Javascript (Protractor)
 
 ### Pre-requisites
 
@@ -23,6 +23,9 @@
 
 
 ## Notes    
+
 This is an example for capturing PDFs with Applitools Images SDK in Javascript. It utliizes PDFBox APIs to break apart PDF documents into individual images. 
+
 It still requires a chrome webdriver running (see pre-requisites), as this example is meant to be adapted as an additional step to existing web tests. 
-Note that if adapted, you'll want to parameterize the PDF file path, and at scale you may want to establish multithreaded tests for each PDF.
+
+If adapted, you'll want to parameterize the PDF file path, and may want to consider multithreading the tests for performance and scalability. 
